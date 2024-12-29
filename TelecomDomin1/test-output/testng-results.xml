@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-29T21:07:27 IST" name="Default suite" finished-at="2024-12-29T21:07:44 IST" duration-ms="17823">
+    <groups>
+    </groups>
+    <test started-at="2024-12-29T21:07:27 IST" name="Default test" finished-at="2024-12-29T21:07:44 IST" duration-ms="17823">
+      <class name="com.TelecomProject.TelecomAPI">
+        <test-method signature="addNewUser()[pri:1, instance:com.TelecomProject.TelecomAPI@55141def]" started-at="2024-12-29T21:07:27 IST" name="addNewUser" finished-at="2024-12-29T21:07:31 IST" duration-ms="4084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUser -->
+        <test-method signature="getProfile()[pri:2, instance:com.TelecomProject.TelecomAPI@55141def]" started-at="2024-12-29T21:07:31 IST" name="getProfile" finished-at="2024-12-29T21:07:32 IST" depends-on-methods="com.TelecomProject.TelecomAPI.addNewUser" duration-ms="1615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProfile -->
+        <test-method signature="updateUser()[pri:3, instance:com.TelecomProject.TelecomAPI@55141def]" started-at="2024-12-29T21:07:32 IST" name="updateUser" finished-at="2024-12-29T21:07:34 IST" duration-ms="1520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method signature="loginUser()[pri:4, instance:com.TelecomProject.TelecomAPI@55141def]" started-at="2024-12-29T21:07:34 IST" name="loginUser" finished-at="2024-12-29T21:07:35 IST" duration-ms="1444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method signature="addContact()[pri:5, instance:com.TelecomProject.TelecomAPI@55141def]" started-at="2024-12-29T21:07:35 IST" name="addContact" finished-at="2024-12-29T21:07:37 IST" duration-ms="1546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addContact -->
+        <test-method signature="getContactList()[pri:6, instance:com.TelecomProject.TelecomAPI@55141def]" started-at="2024-12-29T21:07:37 IST" name="getContactList" finished-at="2024-12-29T21:07:38 IST" duration-ms="1401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getContactList -->
+        <test-method signature="getContact()[pri:7, instance:com.TelecomProject.TelecomAPI@55141def]" started-at="2024-12-29T21:07:38 IST" name="getContact" finished-at="2024-12-29T21:07:40 IST" duration-ms="1528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getContact -->
+        <test-method signature="updateContact()[pri:8, instance:com.TelecomProject.TelecomAPI@55141def]" started-at="2024-12-29T21:07:40 IST" name="updateContact" finished-at="2024-12-29T21:07:41 IST" duration-ms="1532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateContact -->
+        <test-method signature="updateContactpatch()[pri:9, instance:com.TelecomProject.TelecomAPI@55141def]" started-at="2024-12-29T21:07:41 IST" name="updateContactpatch" finished-at="2024-12-29T21:07:43 IST" duration-ms="1532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateContactpatch -->
+        <test-method signature="logoutUser()[pri:10, instance:com.TelecomProject.TelecomAPI@55141def]" started-at="2024-12-29T21:07:43 IST" name="logoutUser" finished-at="2024-12-29T21:07:44 IST" duration-ms="1514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+      </class> <!-- com.TelecomProject.TelecomAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
